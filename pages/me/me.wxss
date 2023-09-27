@@ -1,0 +1,14 @@
+/* pages/me/me.wxss */
+.login{
+  background-color: #d0a36b;
+  color:white;
+  font-size: 50rpx;
+  width: 400rpx;
+  height: 100rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100rpx;
+  text-align: center;
+  padding-top: 30rpx;
+  border-radius: 25rpx;
+}

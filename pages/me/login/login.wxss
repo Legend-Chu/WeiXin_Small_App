@@ -1,0 +1,25 @@
+/* pages/login/login.wxss */
+.userName{
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
+.userImage{
+  width: 200rpx;
+  height: 200rpx;
+  margin-bottom: 50rpx;
+}
+.bigBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 900rpx;
+  align-items: center;
+}
+.getUser{
+  background-color: #d0a36b;
+  color: white;
+}

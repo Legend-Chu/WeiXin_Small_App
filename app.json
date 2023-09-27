@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/me/me",
+    "pages/detail/index",
+    "pages/history/index",
+    "pages/me/login/login"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "深圳旅游指南",
+    "navigationBarBackgroundColor": "#d0a36b"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#bfbfbf",
+    "selectedColor": "#d0a36b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/未选中首页.png",
+        "selectedIconPath": "/images/选中首页.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人信息",
+        "iconPath": "/images/未选中我的.png",
+        "selectedIconPath": "/images/选中我的.png"
+      },
+      {
+        "pagePath": "pages/history/index",
+        "text": "历史",
+        "iconPath": "/images/未选中历史.png",
+        "selectedIconPath": "/images/历史.png"
+      },
+      {
+        "pagePath": "pages/detail/index",
+        "text": "详情",
+        "iconPath": "/images/未选中详情.png",
+        "selectedIconPath": "/images/详情.png"
+      }
+    ]
+  }
+}

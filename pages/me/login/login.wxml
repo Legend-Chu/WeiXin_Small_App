@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+<button class="getUser" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称</button>
+<view class="bigBox">
+  <image class="userImage" bindtap="bindViewTap" src="{{name.avatarUrl}}" mode="cover"></image>
+  <text class="userName">{{name.nickName}}</text>
+</view>

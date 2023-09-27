@@ -1,0 +1,15 @@
+<!--pages/me/me.wxml-->
+<block>
+   <view class="user_img_wrap" wx:if="{{userInfo.avatarUrl}}">
+        <image class="user_bg" src="{{ userInfo.avatarUrl }}"></image>
+        <view class="user_info">
+            <image class="user_icon" src="{{ userInfo.avatarUrl }}"></image>
+            <view class="user_name">{{ userInfo.nickName }}</view>
+        </view>
+    </view>
+    <view class="user_btn" wx:else>
+        <navigator class="login" url="/pages/me/login/login">
+            登录
+        </navigator>
+    </view>
+</block>
